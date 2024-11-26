@@ -1,0 +1,63 @@
+.axisX {
+    font-size: 30pt;
+}
+
+.axisY {
+    font-size: 30pt;
+}
+
+.axis {
+    font-size: 20pt;
+}
+
+circle {
+    fill-opacity: 0.7;
+}
+
+.title {
+    font-size: 25pt;
+    font-family: sans-serif;
+    text-anchor: middle;
+    color: black;
+    z-index: 1001;
+}
+
+.label {
+    font-size: 20pt;
+    font-family: sans-serif;
+    text-anchor: middle;
+    z-index: 1001;
+}
+
+.bars {
+    fill-opacity: 0.7;
+}
+
+.legend {
+    text-anchor: start;
+    font-size: 18pt;
+    font-family: sans-serif;
+}
+
+.selected {
+    stroke: black;
+    stroke-width: 3px;
+    fill-opacity: 0.5;
+}
+
+.legendSelect {
+    fill-opacity: 0;
+}
+
+.hidden {
+    opacity: 0;
+    
+}
+circle.selected {
+    stroke: black;
+    stroke-width: 2px;
+    fill-opacity: 1; /* Ensure selected points are fully visible */
+}
+
+
+
